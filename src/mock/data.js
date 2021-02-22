@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'House of Haidary', // e.g: 'Name | Developer'
+  lang: 'en, fr', // e.g: en, es, fr, jp
+  description: 'We are a creative House', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'House of Haidary',
+  subtitle: 'A creative house',
   cta: '',
 };
 
@@ -28,30 +28,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'Anouar_Haidary_WebDeveloper.png',
+    title: 'Anouar Haidary Portfolio',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://houseofhaidary.netlify.app/',
+    repo: 'https://github.com/AnouarLdn/resume', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'jillpoole.png',
+    title: 'Jill Poole Nature Art',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.jillpoole.com/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +50,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'houseofhaidary@gmail.com',
 };
 
 // FOOTER DATA
