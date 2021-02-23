@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Anouar_Haidary_WebDeveloper.png',
     title: 'Anouar Haidary Portfolio',
-    info: '',
+    info: `This website showcases Anouar Haidary's portfolio`,
     info2: '',
     url: 'https://houseofhaidary.netlify.app/',
     repo: 'https://github.com/AnouarLdn/resume', // if no repo, the button will not show up
@@ -39,7 +39,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'jillpoole.png',
     title: 'Jill Poole Nature Art',
-    info: '',
+    info: 'Jill Poole is a British artist who has asked us to move from a static website to an E-Commerce platform. We have also been able to assist her by photographing and styling her artwork for her brand new online store.',
     info2: '',
     url: 'https://www.jillpoole.com/',
     repo: '', // if no repo, the button will not show up

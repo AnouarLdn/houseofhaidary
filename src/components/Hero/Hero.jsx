@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import pool from "../../images/etienne-girardet-Xh6BpT-1tXo-unsplash.jpg";
+import Typewriter from 'typewriter-effect';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -31,7 +31,27 @@ const Header = () => {
             <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
             {subtitle || "I'm the Unknown Developer."}
+
+              <Typewriter
+                  onInit={(typewriter) => {
+                      typewriter
+                      .typeString("Web Development")
+                      .pauseFor(1000)
+                      .deleteAll()
+                      .typeString("Mobile App Development")
+                      .pauseFor(1000)
+                      .deleteAll()
+                      .typeString("Design")
+                      .pauseFor(1000)
+                      .deleteAll()
+                      .typeString("Illustration")
+                      .pauseFor(1000)
+                      .deleteAll()
+                      .typeString("Blog content")
+                      .start();
+                  }}/>
           </h1>
+
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">

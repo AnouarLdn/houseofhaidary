@@ -17,6 +17,9 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
+  // img {
+  //     border-radius: 50%;
+  // }
 
   .about-wrapper {
     @include respond(phone) {
