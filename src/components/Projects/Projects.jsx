@@ -23,7 +23,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="projects" style = {{background:"linear-gradient(to bottom, yellow, pink)"}}>
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
