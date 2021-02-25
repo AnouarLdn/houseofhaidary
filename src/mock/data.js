@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Anouar_Haidary_WebDeveloper.png',
     title: 'Anouar Haidary Portfolio',
-    info: `This website showcases Anouar Haidary's portfolio`,
+    info: `This website showcases Anouar Haidary's portfolio. As a Javascript Developer, the projects indicates a different level of complexity.`,
     info2: '',
     url: 'https://houseofhaidary.netlify.app/',
     repo: 'https://github.com/AnouarLdn/resume', // if no repo, the button will not show up
@@ -47,11 +47,11 @@ export const projectsData = [
 ];
 
 // CONTACT DATA
-export const contactData = {
-  cta: '',
-  btn: '',
-  email: 'houseofhaidary@gmail.com',
-};
+// export const contactData = {
+//   cta: '',
+//   btn: '',
+//   email: 'houseofhaidary@gmail.com',
+// };
 
 // FOOTER DATA
 // export const footerData = {

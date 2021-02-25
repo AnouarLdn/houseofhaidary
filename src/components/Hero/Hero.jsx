@@ -34,6 +34,7 @@ const Header = () => {
 
               <Typewriter
                   onInit={(typewriter) => {
+
                       typewriter
                       .typeString("Web Development")
                       .pauseFor(1000)
@@ -48,6 +49,9 @@ const Header = () => {
                       .pauseFor(1000)
                       .deleteAll()
                       .typeString("Blog content")
+                      .pauseFor(1000)
+                      .deleteAll()
+                      .typeString("Web Development")
                       .start();
                   }}/>
           </h1>
