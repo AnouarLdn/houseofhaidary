@@ -4,11 +4,12 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-
-
 import { PortfolioProvider } from '../context/context';
-
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-263898642-01');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   const [hero, setHero] = useState({});
