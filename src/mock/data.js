@@ -47,11 +47,11 @@ export const projectsData = [
 ];
 
 // CONTACT DATA
-// export const contactData = {
-//   cta: '',
-//   btn: '',
-//   email: 'houseofhaidary@gmail.com',
-// };
+export const contactData = {
+  cta: '',
+  btn: '',
+  email: 'houseofhaidary@gmail.com',
+};
 
 // FOOTER DATA
 // export const footerData = {
