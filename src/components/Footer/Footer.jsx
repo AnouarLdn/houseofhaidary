@@ -36,6 +36,9 @@ const Footer = () => {
               );
             })}
         </div>
+        <a href="https://fr.houseofhaidary.com/">
+           French Version 🇫🇷
+        </a>
         <hr />
       </Container>
     </footer>
