@@ -18,9 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: `50 milliseconds is the time a visitor takes to form their first impression on a website. Your website must capture the attention of visitors as soon as they arrive. Communicating a clear message is a key element in your digital strategy towards success.`,
+  paragraphTwo: `House of Haidary is a Franco-British duo, passionate about technology, art and design. We want your website to stand out from the crowd.`,
+  paragraphThree: `Knowing your vision is essential for us so we can create a winning design tailored to your needs. Our mission is to help you develop your digital presence.`,
+  paragraphFour: `Responsive Web Design`,
+  paragraphFive: `E-Commerce Web Design`,
+  paragraphSix: `"Click and Collect" Web platform`,
+  paragraphSeven: `Mobile App Design`,
   resume: '', // if no resume, the button will not show up
 };
 

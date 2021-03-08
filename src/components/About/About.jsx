@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, paragraphFive, paragraphSix, paragraphSeven, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About US" />
+        <Title title="ABOUT US" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -38,16 +38,31 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne || `We all know that first impressions count so, just like when you meet someone for the first time, your website can make an impact, too.`
-                }
+                  {paragraphOne ||
+                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo || `The House of Haidary is a Franco-British duo, passionate about Technology, Art and Design. We want your website to stand out from the crowd, but most of all we want it to send a clear message about what you do.`
-                     }
+                  {paragraphTwo ||
+                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || `One of our other passions is getting to know YOU so we can create an winning design tailored to your needs. We strive to help your business grow and blossom. We can't wait to assist you on your journey to success.`}
+                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
+                <ul>
+                 Our services:
+                </ul>
+                <li className="about-wrapper__info-text">
+                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </li>
+                <li className="about-wrapper__info-text">
+                  {paragraphFive || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </li>
+                <li className="about-wrapper__info-text">
+                  {paragraphSix || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </li>
+                <li className="about-wrapper__info-text">
+                  {paragraphSeven || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </li>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
@@ -56,6 +71,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
+                      Resume
                     </a>
                   </span>
                 )}
