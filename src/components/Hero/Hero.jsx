@@ -28,9 +28,9 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             {title || 'We are the'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
+            <span className="text-color-main">{name || ''}</span>
             <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {subtitle || ""}
 
               <Typewriter
                   onInit={(typewriter) => {
@@ -38,16 +38,10 @@ const Header = () => {
                       .typeString("Web Development")
                       .pauseFor(1000)
                       .deleteAll()
+                      .typeString("E-Commerce platform")
+                      .pauseFor(1000)
+                      .deleteAll()
                       .typeString("Mobile App Development")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .typeString("Design")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .typeString("Illustration")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .typeString("Blog content")
                       .pauseFor(1000)
                       .deleteAll()
                       .typeString("Web Development")
