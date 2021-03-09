@@ -36,7 +36,7 @@ export const projectsData = [
     title: 'Anouar Haidary Portfolio',
     info: `This website showcases Anouar Haidary's portfolio. As a Javascript Developer, the projects indicates a different level of complexity.`,
     info2: '',
-    url: 'https://houseofhaidary.netlify.app/',
+    url: 'https://resume.houseofhaidary.com/',
     repo: 'https://github.com/AnouarLdn/resume', // if no repo, the button will not show up
   },
   {
