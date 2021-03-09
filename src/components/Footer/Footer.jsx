@@ -37,7 +37,7 @@ const Footer = () => {
             })}
         </div>
         <a href="https://fr.houseofhaidary.com/">
-           French Version 🇫🇷
+           French version 🇫🇷
         </a>
         <hr />
       </Container>
