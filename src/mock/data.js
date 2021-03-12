@@ -54,7 +54,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'houseofhaidary@gmail.com',
+  email: 'weare@houseofhaidary.com',
 };
 
 // FOOTER DATA
