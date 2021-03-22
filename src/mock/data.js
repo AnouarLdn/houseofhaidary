@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'House of Haidary',
   name: 'House of Haidary',
   subtitle: 'A creative house',
   cta: '',
@@ -46,6 +46,15 @@ export const projectsData = [
     info: 'Jill Poole is a British artist who has asked us to move from a static website to an E-Commerce platform. We have also been able to assist her by photographing and styling her artwork for her brand new online store.',
     info2: '',
     url: 'https://www.jillpoole.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Zegny_landingPage.png',
+    title: 'Zegny',
+    info: 'This is the landing page for a future mobile Application',
+    info2: '',
+    url: 'https://zegny.houseofhaidary.com/',
     repo: '', // if no repo, the button will not show up
   },
 ];
