@@ -52,7 +52,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Zegny_landingPage.png',
     title: 'Zegny',
-    info: 'This is the landing page for a future mobile Application',
+    info: 'This is the landing page for a future Mobile Application',
     info2: '',
     url: 'https://zegny.houseofhaidary.com/',
     repo: '', // if no repo, the button will not show up
