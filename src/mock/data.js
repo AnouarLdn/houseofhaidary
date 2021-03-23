@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'House of Haidary',
+  title: '',
   name: 'House of Haidary',
   subtitle: 'A creative house',
   cta: '',
