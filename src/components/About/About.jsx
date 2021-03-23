@@ -39,29 +39,29 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    ''}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    ''}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || ''}
                 </p>
                 <ul>
                  Our services:
                 </ul>
                 <li className="about-wrapper__info-text">
-                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphFour || ''}
                 </li>
                 <li className="about-wrapper__info-text">
-                  {paragraphFive || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphFive || ''}
                 </li>
                 <li className="about-wrapper__info-text">
-                  {paragraphSix || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphSix || ''}
                 </li>
                 <li className="about-wrapper__info-text">
-                  {paragraphSeven || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphSeven || ''}
                 </li>
                 {resume && (
                   <span className="d-flex mt-3">
